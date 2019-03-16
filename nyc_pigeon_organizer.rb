@@ -31,13 +31,16 @@ require "pry"
 def nyc_pigeon_organizer(data)
   pigeon_list = {}
   
+  array = []
+  
   data.each { |key, values|
     values.each {|type, pigeon_names|
       pigeon_names.each {|name|
-        pigeon_list[name][type] = []
+        pigeon_list[name][key]
         binding.pry
       }
     }
-        
   }
+  
+  binding.pry
 end
