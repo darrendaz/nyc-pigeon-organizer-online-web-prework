@@ -29,13 +29,11 @@ require "pry"
   # transfer each of the symbols into the name of the pigeon
 
 def nyc_pigeon_organizer(data)
-  # write your code here!
   pigeon_list = {}
   
   data.each { |key, values|
     values.each {|type, pigeon_names|
-      binding.pry
-      pigeon_list[pigeon_name] = type.to_s
+      pigeon_list = 
       binding.pry
     }
         
