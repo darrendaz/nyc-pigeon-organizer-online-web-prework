@@ -32,7 +32,7 @@ def nyc_pigeon_organizer(data)
   # write your code here!
   pigeon_list = {}
   
-  data.each { |key, property|
+  data.each { |key, values|
   binding.pry
     property.each {|type, value|
       binding.pry
