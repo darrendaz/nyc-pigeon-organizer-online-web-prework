@@ -37,7 +37,7 @@ def nyc_pigeon_organizer(data)
     values.each {|type, pigeon_names|
       pigeon_names.each {|name|
         binding.pry
-        pigeon_list[name][key]
+        pigeon_list[name] = key
         binding.pry
       }
     }
