@@ -34,9 +34,11 @@ def nyc_pigeon_organizer(data)
   
   data.each { |key, property|
     binding.pry
-
     property.each {|type, value|
       binding.pry
+      value.each {|item|
+        
+      }
     }
         
   }
