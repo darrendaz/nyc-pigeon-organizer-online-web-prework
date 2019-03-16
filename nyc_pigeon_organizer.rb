@@ -33,8 +33,11 @@ def nyc_pigeon_organizer(data)
   
   data.each { |key, values|
     values.each {|type, pigeon_names|
-      pigeon_list = 
-      binding.pry
+      pigeon_names.each {|name|
+        binding.pry
+        
+        
+      }
     }
         
   }
